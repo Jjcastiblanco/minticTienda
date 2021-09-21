@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input:invalid:required {
+  background-image: linear-gradient(to right, pink, lightgreen);
+}
+footer{
+   background-color: rgba(
+    47, 79, 79, 5);
+line-height: 3;
+     text-align: center   ; 
+    width: 100%;
+     align-self: flex-end;
+     height:50px;
+    position:fixed;
+  bottom:0;
+  left:0;
+  color: white;
+ 
+}
+
+body{
+  font-family: arial;
+  background-image: url('https://cdn.pixabay.com/photo/2017/02/23/13/56/mom-and-pop-store-2092262_960_720.jpg'
+  );
+  background-position: center; 
+  
+  background-size: cover;
+ min-height: 100vh;
+   height: 100%;
+    flex: wrap;
+}
+
+.form-login{
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  margin-top: 180px;
+  padding: 20px 30px;
+  border-top: 4px solid #017bab;
+  color: #000 ;
+  
+  border-radius: 20px;
+   background-color: rgba(255, 255, 255, 0.6)
+  
+}
+.form-menu{
+   width: 70%;
+  height: 400px;
+  
+  margin: auto;
+  margin-top: 50px;
+    padding: 20px 30px;
+  border-top: 4px solid #017bab;
+  color: #000 ;
+  
+  border-radius: 5px;
+   background-color: white;
+}
+.form-inuser{
+	width: 800px;
+  height: 450px;
+  margin: auto;
+  margin-top: 80px;
+  padding: 20px 30px;
+  border-top: 4px solid #017bab;
+  color: #000 ;
+  
+  border-radius: 20px;background-color: rgba(255, 255, 255, 0.6)
+}
+
+.form-login h5{
+  margin:0;
+  text-align: center;
+  height: 40px;
+  margin-bottom: 30px;
+  border-bottom: 1px rosybrown solid;
+  font-size: 30px;
+  font-weight: bold;
+font-family: 'Times New Roman'
+}
